@@ -1,6 +1,5 @@
-x = input("Insert x: ")
-y = input("+ ")
+x = float(input("Insert x: "))
+y = float(input("+ "))
 
-result = int(x) + int(y)
 
-print("= ", result)
+print("= ", x + y)
